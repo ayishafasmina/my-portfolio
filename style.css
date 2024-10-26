@@ -65,6 +65,7 @@
     background-color: rgb(40, 42, 42);
     height: 530px;
     color: white;
+    display: flex;
 }
 
 
@@ -136,7 +137,8 @@
     background-color: rgb(40, 42, 42);
     color: white;
     font-weight: 500;
-    padding-bottom: 5px
+    padding-bottom: 5px;
+    display: flex;
     
 
 
@@ -231,21 +233,5 @@ html{
     scroll-behavior: smooth;
 }
 
-/* Default for mobile-first */
-.column {
-    width: 100%;
-}
 
-/* Adjust for larger screens */
-@media (min-width: 768px) {
-    .column {
-        width: 50%;
-    }
-}
-
-@media (min-width: 1024px) {
-    .column {
-        width: 33.33%;
-    }
-}
 
