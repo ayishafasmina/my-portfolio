@@ -65,7 +65,6 @@
     background-color: rgb(40, 42, 42);
     height: 530px;
     color: white;
-    display: flex;
 }
 
 
@@ -137,8 +136,7 @@
     background-color: rgb(40, 42, 42);
     color: white;
     font-weight: 500;
-    padding-bottom: 5px;
-    display: flex;
+    padding-bottom: 5px
     
 
 
@@ -208,6 +206,7 @@
     display: flex;
     justify-content: space-between;
     background-color: rgb(35, 34, 34);
+  
 
 }
 
@@ -233,5 +232,56 @@ html{
     scroll-behavior: smooth;
 }
 
+
+
+    .navbar > a {
+        font-size: 24px;
+        margin-right: 20px;
+    }
+
+    .abtcontainer {
+        grid-template-columns: 1fr; 
+        text-align: center;
+    }
+
+    #abtimg {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto; /* Center the image */
+    }
+
+    .aboutinfo {
+        margin: 20px;
+        padding-left: 0;
+        margin-right: 0;
+    }
+   
+
+    .grid-container {
+        grid-template-columns: 1fr; /* Make skill items stack vertically */
+        gap: 20px;
+    }
+   
+
+    .grid-item {
+        font-size: 20px;
+        padding: 10px;
+        height: auto; /* Let items adjust in height */
+    }
+
+    .contact h3 {
+        font-size: 18px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navlinks {
+        margin: 20px 0;
+    }
+}
 
 
