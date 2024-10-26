@@ -231,3 +231,21 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Default for mobile-first */
+.column {
+    width: 100%;
+}
+
+/* Adjust for larger screens */
+@media (min-width: 768px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .column {
+        width: 33.33%;
+    }
+}
+
